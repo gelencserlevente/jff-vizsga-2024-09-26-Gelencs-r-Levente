@@ -1,0 +1,11 @@
+<h1 style="text-align: center;">Téglalap kerület és terület</h1>
+<form action="">
+    <label for="aoldal">Az a oldal mérete</label>
+    <input type="number" class="form-control w-100 my-2"  id="aoldal" [(ngModel)]="aoldal">
+    <label for="boldal">A b oldal mérete</label>
+    <input type="number" class="form-control w-100 my-2"  id="boldal" [(ngModel)]="boldal">
+     <button type="button" class="btn btn-primary">számol</button>
+    
+</form>
+<p>{{aoldal*boldal}}</p>
+<p>{{(aoldal+boldal)*2}}</p>

@@ -1,0 +1,4 @@
+JS
+https://hu.wikipedia.org/wiki/JavaScript
+TS
+https://en.wikipedia.org/wiki/TypeScript
